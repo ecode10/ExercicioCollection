@@ -1,0 +1,12 @@
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/bin/Debug/netcoreapp3.1/ExercicioCollection.deps.json
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/bin/Debug/netcoreapp3.1/ExercicioCollection.runtimeconfig.json
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/bin/Debug/netcoreapp3.1/ExercicioCollection.runtimeconfig.dev.json
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/bin/Debug/netcoreapp3.1/ExercicioCollection.dll
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/bin/Debug/netcoreapp3.1/ExercicioCollection.pdb
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/obj/Debug/netcoreapp3.1/ExercicioCollection.csprojAssemblyReference.cache
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/obj/Debug/netcoreapp3.1/ExercicioCollection.AssemblyInfoInputs.cache
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/obj/Debug/netcoreapp3.1/ExercicioCollection.AssemblyInfo.cs
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/obj/Debug/netcoreapp3.1/ExercicioCollection.csproj.CoreCompileInputs.cache
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/obj/Debug/netcoreapp3.1/ExercicioCollection.dll
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/obj/Debug/netcoreapp3.1/ExercicioCollection.pdb
+/Users/mauriciojunior/Documents/GitHub/ExercicioCollection/ExercicioCollection/ExercicioCollection/obj/Debug/netcoreapp3.1/ExercicioCollection.genruntimeconfig.cache

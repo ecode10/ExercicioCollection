@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{AA9E2D27-8F57-4869-865B-160E88A71B0D}|Default">
+  <MonoDevelop.Ide.ItemProperties.ExercicioCollection FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExercicioCollection/Program.cs">
+    <Files>
+      <File FileName="ExercicioCollection/Program.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExercicioCollection" expanded="True">
+            <Node name="ExercicioCollection" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
