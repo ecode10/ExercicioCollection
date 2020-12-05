@@ -10,11 +10,89 @@ namespace ExercicioCollection
         {
 
             TrabalhandoComArray();
+            Console.WriteLine();
 
             TrabalhandoComDictionary();
+            Console.WriteLine();
+
+            TrabalhandoComQueue();
+            Console.WriteLine();
+
+            TrabalhandoComStack();
 
             Console.ReadLine();
         }
+
+        static void TrabalhandoComStack()
+        {
+            //o ultimo adicionado é o primeiro da lista de saída
+            Stack stack = new Stack();
+
+            //adicionar na lista
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+            stack.Push(5);
+
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item);
+            }
+
+            //pega mais nao remove da lista
+            Console.WriteLine($"Peek: {stack.Peek()}");
+
+            //remove o item
+            Console.WriteLine($"Pop: {stack.Pop()}");
+
+            //verifica se contain
+            Console.WriteLine($"Contain: {stack.Contains(1)}");
+
+            //copia o stack para um array
+            object[] array = stack.ToArray();
+
+            //imprime o array
+            Console.WriteLine(string.Join(", ", array));
+
+            //apaga o stack
+            stack.Clear();
+        }
+
+
+        static void TrabalhandoComQueue()
+        {
+            //o primeiro que aparece é o primeiro que sai
+            Queue queue = new Queue();
+
+            //adicionando valores
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+            queue.Enqueue(5);
+
+            foreach (var item in queue)
+            {
+                Console.WriteLine(item);
+            }
+
+            //saber se tem alguma queue
+            Console.WriteLine(queue.Contains(1));
+
+            //remover o primeiro item da lista
+            Console.WriteLine(queue.Dequeue());
+
+            //copia a queue para um array
+            object[] array = queue.ToArray();
+
+            //imprimir o array
+            Console.WriteLine(string.Join(",", array));
+
+            //apagar a queue
+            queue.Clear();
+        }
+
 
         static void TrabalhandoComDictionary()
         {
@@ -38,7 +116,27 @@ namespace ExercicioCollection
                 Console.WriteLine(item);
             }
 
+            //conta quantas chaves
             Console.WriteLine($"Numero das chaves: {myDic.Count}");
+
+            //verifica se a chave está presente
+            Console.WriteLine(myDic.ContainsKey("Junior"));
+
+            //verifica se tem a chave e guarda na string
+            myDic.TryGetValue("Junior", out string chave);
+
+            Console.WriteLine($"Junior: {chave}");
+
+            //loop para pegar chave e valor
+            foreach (KeyValuePair<string, string> item in myDic)
+            {
+                Console.WriteLine($"chave {item.Key} value {item.Value} ");
+            }
+
+            //apagar o dicionario
+            myDic.Clear();
+
+
 
             Console.WriteLine();
 
